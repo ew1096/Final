@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UNH Task Scheduler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>UNH Task Scheduler</h1>
+
+    <form id="taskForm">
+        <input type="text" id="title" placeholder="Task Title" required />
+        <input type="date" id="due_date" required />
+        <select id="type">
+            <option value="School">School</option>
+            <option value="Work">Work</option>
+            <option value="Other">Other</option>
+        </select>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <h2>Task List</h2>
+    <ul id="taskList"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>

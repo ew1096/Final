@@ -1,0 +1,10 @@
+{
+  "name": "create-task",
+  "version": "1.0.0",
+  "description": "Create a task for Task Scheduler",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1480.0",
+    "uuid": "^9.0.0"
+  }
+}
